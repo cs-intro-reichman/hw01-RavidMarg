@@ -8,6 +8,6 @@ public class Triangle {
 		int side_1 = Integer.parseInt(args[0]);
 		int side_2 = Integer.parseInt(args[1]);
 		int side_3 = Integer.parseInt(args[2]);
-		System.out.println( side_1 + ", " + side_2 + ", " + side_3 + ": " + (side_3 < (side_1 + side_2) || side_2 < (side_1 + side_3) || side_1 < (side_2 + side_3) ));
+		System.out.println( side_1 + ", " + side_2 + ", " + side_3 + ": " + (side_3 < (side_1 + side_2) && side_2 < (side_1 + side_3) && side_1 < (side_2 + side_3) ));
 	}
 }
